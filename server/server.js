@@ -5,8 +5,8 @@ import dotenv from "dotenv";
 
 import connectDB from "./config/db.js";
 import contactRoutes from "./routes/contactroutes.js";
-import trialRoutes from "./routes/trialRoutes.js";
-import memberRoutes from "./routes/memberRoutes.js";
+import trialRoutes from "./routes/trialroutes.js";
+import memberRoutes from "./routes/memberroutes.js";
 
 dotenv.config();
 

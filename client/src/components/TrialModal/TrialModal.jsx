@@ -55,6 +55,11 @@ const [loading, setLoading] = useState(false);
      toast.error("Booking Failed");
 
     }
+    finally {
+
+    setLoading(false);
+
+  }
   };
 
   if (!isOpen) return null;

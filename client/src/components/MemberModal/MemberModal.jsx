@@ -24,7 +24,7 @@ function MemberModal({ isOpen, onClose, selectedPlan }) {
   },[selectedPlan]);
 
   const handleChange=(e)=>{
-setLoading(true);
+
     setFormData({
       ...formData,
       [e.target.name]:e.target.value,
@@ -35,7 +35,7 @@ setLoading(true);
   const handleSubmit=async(e)=>{
 
     e.preventDefault();
-
+  setLoading(true);
     try{
 
       const response=await fetch(`${import.meta.env.VITE_API_URL}/api/member`, {
@@ -64,7 +64,11 @@ setLoading(true);
 
       toast.error("Registration Failed");
     }
+ finally {
 
+    setLoading(false);
+
+  }
   };
 
   if(!isOpen) return null;

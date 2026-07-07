@@ -17,13 +17,14 @@ function Contact() {
 });
 const [loading, setLoading] = useState(false);
 const handleChange = (e) => {
-    setLoading(true);
+   
   setFormData({
     ...formData,
     [e.target.name]: e.target.value,
   });
 };
 const handleSubmit = async () => {
+     setLoading(true);
 const [loading, setLoading] = useState(false);
   try {
     const response = await fetch(
@@ -52,7 +53,13 @@ const [loading, setLoading] = useState(false);
   } catch (error) {
     setLoading(false);
     console.error(error);
-    alert("Something went wrong!");
+      toast.error("Registration Failed");
+
+  }
+   finally {
+
+    setLoading(false);
+
   }
 };
   return (

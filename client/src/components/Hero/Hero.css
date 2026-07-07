@@ -1,0 +1,179 @@
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:150px 8%;
+}
+
+.hero-left{
+    width:50%;
+}
+
+.tagline{
+    color:#FFD000;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+.nav-links a{
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ffcc00;
+}
+.hero-left h1{
+    font-size:80px;
+    line-height:1.1;
+    color:white;
+}
+
+.description{
+    margin-top:30px;
+    color:#cfcfcf;
+    width:80%;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+}
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+.hero-buttons{
+    margin-top: 35px;
+}
+.primary-btn,
+.secondary-btn{
+    transition:all .3s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+    transform:translateY(-4px);
+}
+.primary-btn{
+    background:#ffcc00;
+    color:black;
+    padding:15px 35px;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+}
+
+.secondary-btn{
+    background:transparent;
+    color:white;
+    border:2px solid white;
+    padding:15px 35px;
+    border-radius:40px;
+    cursor:pointer;
+}
+
+.hero-right{
+
+    width:45%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+
+    color:#FFD000;
+
+}
+.hero-image{
+    width:90%;
+    max-width:480px;
+    object-fit:contain;
+}
+.hero-image{
+    width: 480px;
+    height: 620px;
+    object-fit: cover;
+}
+.hero-image img{
+    box-shadow: 0 0 40px rgba(255,200,0,.25);
+}
+.hero-image img{
+    height:650px;
+    object-fit:cover;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+.stat{
+    transition:.3s;
+}
+
+.stat:hover{
+    transform:translateY(-6px);
+}
+.hero-stats{
+    display:flex;
+    gap:30px;
+    margin-top:50px;
+}
+
+.stat{
+    text-align:center;
+}
+
+.stat h2{
+    color:#ffcc00;
+    font-size:32px;
+}
+
+.stat p{
+    color:#bbb;
+    margin-top:5px;
+    font-size:14px;
+}
+.hero-stats{
+    display:flex;
+    gap:35px;
+    margin-top:45px;
+}
+
+.stat h2{
+    color:#ffcc00;
+    font-size:32px;
+    font-weight:700;
+}
+
+.stat p{
+    color:#bfbfbf;
+    font-size:14px;
+    margin-top:5px;
+}
+.hero-buttons button{
+    transition:all .3s ease;
+}
+
+.hero-buttons button:hover{
+    transform:translateY(-4px);
+}
+.hero-image{
+    box-shadow:0 0 40px rgba(255,204,0,.25);
+    border-radius:20px;
+}

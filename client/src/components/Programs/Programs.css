@@ -1,0 +1,68 @@
+.programs{
+    padding:100px 10%;
+    background:#000;
+    color:white;
+    text-align:center;
+}
+
+.program-tag{
+    color:#f7c600;
+    font-weight:600;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+.programs h2{
+    font-size:55px;
+    margin-bottom:70px;
+}
+
+.program-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.program-card{
+    background:#111;
+    padding:40px 30px;
+    border-radius:18px;
+    transition:.4s;
+    text-align:left;
+    cursor:pointer;
+}
+
+.program-card:hover{
+    background:#f7c600;
+    color:#000;
+    transform:translateY(-10px);
+}
+
+.program-icon{
+    font-size:45px;
+    color:#f7c600;
+    margin-bottom:20px;
+}
+
+.program-card:hover .program-icon{
+    color:#000;
+}
+
+.program-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.program-card p{
+    color:#bdbdbd;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+.program-card:hover p{
+    color:#222;
+}
+
+.program-card span{
+    font-weight:bold;
+}

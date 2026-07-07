@@ -1,0 +1,145 @@
+.modal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.75);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:999;
+
+    backdrop-filter:blur(8px);
+
+}
+
+.modal{
+
+    width:450px;
+
+    background:#111;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    position:relative;
+
+    animation:popup .35s ease;
+
+}
+
+@keyframes popup{
+
+    from{
+
+        transform:scale(.8);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+.modal h2{
+
+    color:#facc15;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+}
+
+.modal form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.modal input{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#222;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.modal input:focus{
+
+    outline:2px solid #facc15;
+
+}
+
+.book-btn{
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#facc15;
+
+    color:black;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.book-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.close-btn{
+
+    position:absolute;
+
+    top:15px;
+
+    right:20px;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+}

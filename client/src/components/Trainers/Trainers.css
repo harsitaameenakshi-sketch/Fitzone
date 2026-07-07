@@ -1,0 +1,91 @@
+.trainers{
+    padding:100px 10%;
+    background:#000;
+    color:white;
+    text-align:center;
+}
+
+.trainers h4{
+    color:#facc15;
+    letter-spacing:3px;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.trainers h2{
+    font-size:55px;
+    margin-bottom:70px;
+    font-weight:700;
+}
+
+.trainer-container{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.trainer-card{
+    background:#111;
+    width:320px;
+    border-radius:20px;
+    padding:35px 25px;
+    transition:.4s;
+    text-align:center;
+}
+
+.trainer-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 15px 40px rgba(250,204,21,.25);
+}
+
+.trainer-card img{
+    width: 180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:25px;
+    border:4px solid #facc15;
+    transition:.4s;
+}
+.trainer-card img{
+    display:block;
+    margin:0 auto 25px;
+}
+.trainer-card:hover img{
+    transform:scale(1.08);
+}
+
+.trainer-card h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.trainer-card p{
+    color:#bbb;
+    margin-bottom:25px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.social-icons svg{
+    font-size:22px;
+    color:#facc15;
+    cursor:pointer;
+    transition:.3s;
+}
+.social-icons svg:hover{
+    transform:scale(1.3);
+    color:white;
+}
+.icon-wrapper{
+    display:flex;
+    justify-content:center;
+}
+

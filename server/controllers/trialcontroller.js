@@ -1,4 +1,4 @@
-import trial from "../models/Trial.js";
+import Trial from "../models/trial.js";
 
 export const bookTrial = async (req, res) => {
   try {

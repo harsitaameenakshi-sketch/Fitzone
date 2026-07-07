@@ -1,7 +1,18 @@
-# 🏋️ FitZone
+<p align="center">
 
-A modern **Full Stack MERN Fitness Management Platform** built using **React, Node.js, Express and MongoDB Atlas**.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
+<h1 align="center">
+🏋️ FitZone
+</h1>
+
+<h3 align="center">
+Modern Full Stack MERN Fitness Management Platform
+</h3>
 ---
 
 ## 🌐 Live Demo
@@ -9,6 +20,9 @@ A modern **Full Stack MERN Fitness Management Platform** built using **React, No
 🔗 https://fitzone-delta.vercel.app
 
 ---
+## 📸 Preview
+
+![FitZone Home](screenshots/home.png)
 
 ## ✨ Features
 
